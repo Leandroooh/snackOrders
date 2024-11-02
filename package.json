@@ -1,0 +1,26 @@
+{
+  "name": "snackorders",
+  "version": "1.0.0",
+  "description": "A simple system for manage orders",
+  "main": "script.js",
+  "type": "module",
+  "exports": {
+    "./biome": "./biome.json"
+  },
+  "scripts": {
+    "test": "node script.js"
+  },
+  "author": "Leandroooh",
+  "license": "ISC",
+  "dependencies": {
+    "biome": "^0.2.2",
+    "chalk": "^5.3.0",
+    "inquirer": "^12.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@biomejs/biome": "1.9.4"
+  }
+}
